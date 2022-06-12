@@ -72,7 +72,7 @@ git remote -v
 ### Connect to Heroku
 ```
 HEROKU_EMAIL:masram.ranjeet@gmail.com
-HEROKU_API_KEY:cacd8144-9f93-4e33-a595-c68e78bbfedc
+HEROKU_API_KEY:<>
 HEROKU_APP_NAME:rj-ml-regression-app
 ```
 
