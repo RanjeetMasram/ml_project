@@ -27,3 +27,44 @@ conda activate venv/
 ```
 pip install -r requirements.txt
 ```
+
+### Git commands
+To check git status
+```
+git status
+```
+To add a file
+```
+git add <file_name>
+```
+
+To add all the files
+```
+git add .
+```
+> Note: to ignore some files and folder to be send at remote add those files and folder names to .gitignore file 
+
+To commit changes
+```
+git commit -m "commit msg"
+```
+
+To edit local commit message
+```
+git commit --amend
+```
+
+To push the changes to remote
+```
+git push origin <branch_name>
+```
+
+To check all version maintained by git
+```
+git log
+```
+
+To check remote url
+```
+git remote -v
+```
