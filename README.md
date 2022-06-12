@@ -68,3 +68,36 @@ To check remote url
 ```
 git remote -v
 ```
+
+### Connect to Heroku
+```
+HEROKU_EMAIL:masram.ranjeet@gmail.com
+HEROKU_API_KEY:cacd8144-9f93-4e33-a595-c68e78bbfedc
+HEROKU_APP_NAME:rj-ml-regression-app
+```
+
+### Build docker image
+```
+docker build -t <image_name>:<tag_name>
+```
+> Note: Image name for docker should be in lower case
+
+To list docker images
+```
+docker images
+```
+
+To run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 <IMAGE_ID>
+```
+
+To check running containers in docker
+```
+docker ps
+```
+
+To stop docker container
+```
+docker stop <container_id>
+```
