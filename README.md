@@ -101,3 +101,8 @@ To stop docker container
 ```
 docker stop <container_id>
 ```
+
+setup.py
+```
+python setup.py install
+```
