@@ -106,3 +106,8 @@ setup.py
 ```
 python setup.py install
 ```
+
+notebook
+```
+pip install ipykernel
+```
