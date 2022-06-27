@@ -16,6 +16,7 @@ class HousingException(Exception):
         error_message: Exception object
         error_detail: object of sys module
         """
+        # exc_info returns type[BaseException], BaseException, TraceBack
         _,_ ,exec_tb = error_detail.exc_info()
         exception_block_line_number = exec_tb.tb_frame.f_lineno
         try_block_line_number = exec_tb.tb_lineno
@@ -31,6 +32,8 @@ class HousingException(Exception):
     def __str__(self):
         return self.error_message
 
+    
+    # __repr__ is a special method to represent class method as string 
 
     def __repr__(self) -> str:
         return HousingException.__name__.str()
